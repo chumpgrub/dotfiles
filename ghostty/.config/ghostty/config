@@ -1,0 +1,19 @@
+# Typography
+font-family = "JetBrainsMono Nerd Font"
+font-size = 14
+font-feature = "-calt"
+adjust-cell-height = 5%
+
+# Ensure proper terminal reporting
+term = xterm-256color
+
+# Theme style
+theme = nightfox
+
+# Window
+window-padding-balance = true
+window-padding-x = 4
+macos-titlebar-style = hidden
+
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
