@@ -1,0 +1,18 @@
+# AstroNvim: Ignore template files, keep only lua/ configs
+nvim/.config/nvim/*
+!nvim/.config/nvim/lua/
+
+# AstroNvim: Ignore lazy.nvim plugin installations
+nvim/.config/nvim/lua/.lazy/
+
+# AstroNvim: Ignore plugin lockfile (optional)
+nvim/.config/nvim/lazy-lock.json
+
+# Tmux: Ignore TPM plugins
+tmux/.config/tmux/plugins/
+
+# Tmux: Ignore resurrect session saves
+tmux/.config/tmux/resurrect/
+
+# OS files
+.DS_Store

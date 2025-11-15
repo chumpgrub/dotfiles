@@ -1,0 +1,12 @@
+[user]
+	email = chumpgrub@gmail.com
+	name = Mark Furrow
+  signingkey = 5A9B51B0B7968038
+
+[commit]
+	gpgsign = true
+[core]
+	editor = nvim
+
+[includeIf "gitdir:~/Sites/liquid-web/configurator/"]
+	path = ~/.gitconfig-work
