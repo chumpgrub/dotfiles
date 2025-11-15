@@ -16,3 +16,6 @@ tmux/.config/tmux/resurrect/
 
 # OS files
 .DS_Store
+
+# DO NOT ignore fonts - we want to commit them
+# fonts/ is intentionally NOT listed here

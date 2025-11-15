@@ -41,11 +41,21 @@ fi
 echo "🔗 Stowing dotfiles..."
 cd "$DOTFILES_DIR"
 
+stow -v fonts
+echo "✓ Fonts stowed"
+
 stow -v nvim
 echo "✓ Neovim config stowed"
 
 stow -v tmux
 echo "✓ Tmux config stowed"
+
+# Refresh font cache if fc-cache is available
+if command -v fc-cache >/dev/null 2>&1; then
+    echo "🔄 Refreshing font cache..."
+    fc-cache -fv
+    echo "✓ Font cache updated"
+fi
 
 echo ""
 echo "✨ Dotfiles installation complete!"
