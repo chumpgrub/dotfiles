@@ -1,0 +1,81 @@
+# ==========================================
+# TAPS
+# ==========================================
+tap "homebrew/cask-fonts"
+
+# ==========================================
+# DEVELOPMENT TOOLS
+# ==========================================
+
+# Version Control & Git Tools
+brew "git"
+brew "gh"                    # GitHub CLI
+brew "glab"                  # GitLab CLI
+brew "lazygit"               # Git TUI
+
+# Node.js & Package Managers
+brew "node"
+brew "fnm"                   # Fast Node Manager
+brew "pnpm"
+brew "uv"                    # Python package manager
+
+# Development Utilities
+brew "neovim"
+brew "stow"                  # Dotfiles manager
+brew "direnv"                # Directory-based env vars
+brew "mkcert"                # Local HTTPS certificates
+
+# ==========================================
+# CLI UTILITIES
+# ==========================================
+
+# Modern CLI Replacements
+brew "bat"                   # Better cat
+brew "bottom"                # Better top (btop alternative)
+brew "btop"                  # System monitor
+brew "lsd"                   # Better ls
+brew "ripgrep"               # Better grep
+brew "fzf"                   # Fuzzy finder
+brew "yazi"                  # File manager TUI
+
+# ==========================================
+# TMUX & TERMINAL
+# ==========================================
+brew "tmux"
+brew "tpm"                   # Tmux Plugin Manager
+
+# ==========================================
+# API & CLOUD TOOLS
+# ==========================================
+brew "cloudflare-wrangler"
+brew "posting"               # API client TUI
+
+# ==========================================
+# PRODUCTIVITY & UTILITIES
+# ==========================================
+brew "tldr"                  # Simplified man pages
+brew "lazydocker"            # Docker TUI
+
+# ==========================================
+# SYSTEM LIBRARIES (Auto-installed dependencies)
+# ==========================================
+# These are typically installed as dependencies, but listed for completeness:
+# brew "openssl@3", "readline", "sqlite", "zstd", "libgit2", etc.
+
+# ==========================================
+# CASKS - APPLICATIONS
+# ==========================================
+
+# Terminals & Development
+cask "ghostty"
+
+# System Utilities
+cask "moom"                  # Window management
+
+# ==========================================
+# FONTS
+# ==========================================
+cask "font-jetbrains-mono"
+cask "font-hack-nerd-font"
+cask "font-anonymous-pro"
+cask "font-source-code-pro"
